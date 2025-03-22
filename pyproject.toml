@@ -1,0 +1,18 @@
+[project]
+name = "webscraping-airline-tickets"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Marcelo Galli",email = "marcelolemesgalli@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "selenium (>=4.30.0,<5.0.0)",
+    "chromedriver-autoinstaller (>=0.6.4,<0.7.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
